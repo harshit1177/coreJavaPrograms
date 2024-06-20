@@ -28,5 +28,7 @@ public class Main {
 
 
         System.out.println(student1.getRollNo() + " " + student1.getFirstName() + " "+ student1.getLastName() );
+
+
     }
 }

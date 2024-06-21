@@ -33,8 +33,20 @@ public class Pattern {
             System.out.println();
         }
 
+       // Number of rows in the pattern
+                char currentChar = 'A'; // Starting character
+
+                for (int i = 0; i < 5; i++) {
+                    for (int j = 0; j <= i; j++) {
+                        System.out.print(currentChar + " ");
+                        currentChar++; // Move to the next character
+                    }
+                    System.out.println(); // Move to the next line after each row
+                }
+            }
+        }
 
 
-    }
-}
+
+
 //
